@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+
+    <param name="auro8_tps/static_markers" type="string" value="$(find aruco_localizer)/config/static_markers.yaml" />
+
+    <node name="ObjectBroadcast" pkg="aruco_localizer" type="object_broadcast"/>
+    
+    
+</launch>
